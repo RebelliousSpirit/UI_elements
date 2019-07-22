@@ -1,0 +1,21 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+#myAnimation{
+	margin: 10px;
+	padding: 0;
+	position: relative;
+	background-color: yellow;
+	width: 400px;
+	height: 400px;
+	cursor: pointer;
+}
+#block{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: red;
+}

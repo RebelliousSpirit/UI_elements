@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="" >
+	<link rel="stylesheet" type="text/css" href="">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src=""></script>
+	<title>Учимся делать модальное окно</title>
+	<style type="text/css">
+		body{
+			padding: 0;
+			margin: 0;			
+		}
+		.modalBtn,
+		.modal-close{
+			cursor: pointer;
+		}
+		.modalBtn{
+			background-color: #808080;
+			padding: 5px;
+			font-family: 16px 'Roboto', sans-serif;
+		}
+		.modal-window{
+			position: fixed;
+			top: 0;
+			left: 0;
+			margin: 0;
+			background-color: rgba(72,72,72,0.7);
+			z-index: 1;
+			width: 100%;
+			height: 100%;
+		}
+		.modal-content{
+			background-color: #DBDBDB;
+			padding: 10px;
+			margin: 15px auto;
+			width: 60%;
+			height: 45%;
+		}
+		.modal-close{
+			float: right;
+			color: #fff;
+		}
+	</style>
+	<!-- <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> -->
+</head>
+<body>
+	<button class="modalBtn">Open modal</button>
+	<div class="modal-window">
+		<div class="modal-content">Модальное окно<span class="modal-close">&times;</span>
+		</div>
+	</div>
+	<div class=""></div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

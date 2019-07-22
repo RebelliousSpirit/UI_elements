@@ -1,0 +1,41 @@
+.popup{
+	font: 1.2em Verdana;
+	position: relative;
+	width: 150px;
+	margin-top:50px;
+	cursor: pointer;
+}
+.popupText{
+	visibility: hidden;
+	position: absolute;
+	width: 150px;
+	font-size: 12px;
+	bottom: 125%;
+	background-color: #808080;
+	border-radius: 6px;
+	padding: 8px 5px;
+	z-index: 1;
+	left: 50%;
+	margin-left:-80px; 
+}
+.popupText::after{
+	content:"";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	border: 5px solid #808080;
+	margin-left: -5px;  
+}
+.popup .show{
+	visibility: visible;
+	-webkit-animation:fadein 1s;
+	animation:fadein 1s 
+}
+@-webkit-keyframes fadein{
+	from{opacity: 0}
+	to{opacity: 1}
+}
+@keyframes fadein{
+	from{opacity: 0}
+	to{opacity: 1}
+}

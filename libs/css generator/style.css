@@ -1,0 +1,9 @@
+input[type='text']{
+	width:35px;
+}
+#block{
+	width: 350px;
+	height: 250px;
+	background-color: green;
+	margin-top: 20px;
+}

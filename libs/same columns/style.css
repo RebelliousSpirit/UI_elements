@@ -1,0 +1,13 @@
+.column{
+	width:450px;
+	float: left;
+	background-color: #ccc;
+	margin: 10px; 
+}
+.column .left{
+	background-color: #D3D3D3;
+}
+.column .right{
+	background-color: #808080;
+	color: #fff;
+}

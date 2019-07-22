@@ -1,0 +1,84 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+img{
+	width: 100%;
+}
+.slideshow-container{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	padding: 0;
+}
+.prev,
+.next{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 15px;
+	color: #fff;
+	font: bold 18px;
+	-webkit-transition:all 0.8s ease;
+	-moz-transition:all 0.8s ease;
+	-o-transition:all 0.8s ease;
+	transition:all 0.8s ease;
+	border-radius: 0 3px 3px 0;
+}
+.prev{
+	left:5%;
+}
+.next{
+	right: 5%;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover{
+	background-color: rgba(128,128,128,0.8);
+}
+.text{
+	color:#f2f2f2;
+	font-size: 12px;
+	top:0;
+}
+.dot{
+	cursor: pointer;
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	margin: 0 2px;
+	display: inline-block;
+	background-color: #bbb;
+	-webkit-transition:background-color 0.6s ease;
+	-moz-transition:background-color 0.6s ease;
+	-o-transition:background-color 0.6s ease;
+	transition:background-color 0.6s ease;
+}
+.active,
+.dot:hover{
+	background-color: rgba(113,113,113,0.8);
+}
+.fade{
+	-webkit-animation:1.5s fade;
+	animation: 1.5s fade;
+}
+@keyframes fade{
+	from{
+		opacity: 4;
+	}
+	to{
+		opacity: 1;
+	}
+}
+@-webkit-keyframes fade{
+	from{
+		opacity: 4;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+

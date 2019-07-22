@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="" >
+	<link rel="stylesheet" type="text/css" href="">
+
+	<title>Работа с селектом</title>
+	<!-- <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> -->
+</head>
+<body>
+	<select name="" id="select" onchange="func1()">
+		<option value="">Apple</option>
+		<option value="">LG</option>
+		<option value="">Sumsung</option>
+		<option value="">Beko</option>
+	</select>
+
+	<div>
+		<!-- oninput - событие input которое срабатывает при 
+		любом измение в элементе -->
+		<input type="range" name="" min="0" max="100" step="2" id="r1" oninput="getValueRange()">
+		<p id="one"></p>
+		<input type="text" name="" id="text" value="0">
+		<div style="width: 25px; height: 25px; background-color: green;" id="block"></div>
+	</div>	
+	<script src="main.js"></script>
+</body>
+</html>
